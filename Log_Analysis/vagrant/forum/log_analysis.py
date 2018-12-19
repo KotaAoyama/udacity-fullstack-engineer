@@ -24,7 +24,7 @@ def logOne():
         print("1. What are the most popular three articles of all time?")
         rows = c.fetchall()
         for row in rows:
-            print("・" + row[0]+" --- "+str(row[1])+" views")
+            print(row[0]+" --- "+str(row[1])+" views")
         db.close()
 
 
@@ -49,7 +49,7 @@ def logTwo():
         print("2. Who are the most popular article authors of all time?")
         rows = c.fetchall()
         for row in rows:
-            print("・" + row[0] + " --- " + str(row[1]) + " views")
+            print(row[0] + " --- " + str(row[1]) + " views")
         db.close()
 
 
@@ -73,7 +73,7 @@ def logThree():
         print("3. On which days did more than 1% of requests lead to errors?")
         rows = c.fetchall()
         for row in rows:
-            print("・" + str(row[0]) + " --- " +
+            print(str(row[0]) + " --- " +
                   str(round(row[1], 1)) + "% errors")
         db.close()
 
