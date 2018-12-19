@@ -61,5 +61,5 @@ Indexes:
 4. Move ``/vagrant``.
 5. Unzip ``newsdata.zip`` and use ``psql -d news -f newsdata.sql`` command in terminal so that you insert fictional newsdata into postgreSQL.
 6. Use ``psql -d news -f create_views.sql`` command so that you prepare log analysis by creating views. 
-7. Finally, move ``/forum`` and try the log analysis command line tool by using ``python3 log_analysis.py`` command. 
+7. Finally, move ``forum/`` and try the log analysis command line tool by using ``python3 log_analysis.py`` command. 
  
