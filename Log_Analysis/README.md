@@ -56,7 +56,7 @@ Indexes:
 ## Instructions
 
 1. In this project, you use vagrant and virtial box. If you need, install [Vagrant](https://www.vagrantup.com/) and [VirtialBox](https://www.virtualbox.org/wiki/Download_Old_Builds_5_1).
-2. Download the ``KotaAoyama/udacity-fullstack-engineer/Log_Analysis/vagrant/`` folder.
+2. Download the ``https://github.com/KotaAoyama/udacity-fullstack-engineer/tree/master/Log_Analysis/vagrant`` folder.
 3. Set up and log in the VM.
 4. Move ``/vagrant``.
 5. Unzip ``newsdata.zip`` and use ``psql -d news -f newsdata.sql`` command in terminal so that you insert fictional newsdata into postgreSQL.
