@@ -1,5 +1,5 @@
-# udacity-fullstack-engineer
-These are my projects in udacity-fullstack-engineer nanodegree.
+# udacity-fullstack-web-developer
+These are my projects in udacity-fullstack-web-developer nanodegree.
 
 ## Waht is Udacity?
 [UDACITY](https://www.udacity.com) is the online school for software developers.
